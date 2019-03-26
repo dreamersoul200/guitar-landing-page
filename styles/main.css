@@ -47,6 +47,9 @@ border-collapse: collapse;
 border-spacing: 0;
 }
 /* FIN DEL CODIGO RESET*/
+
+
+
 * {
 	box-sizing: border-box;
 }
@@ -117,7 +120,7 @@ li {
 	font-size: 15px;
 	display: block;
 }
-#submit {
+.button {
 	margin: 10px auto;
 	font-size: 15px;
 	font-weight: 700;
@@ -160,4 +163,39 @@ li {
 }
 #video {
 	margin: 100px auto;
+}
+.buy-guitar{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.guitar-type {
+	border: 1px solid black;
+	text-align: center;
+	min-width: 30%;
+	height: auto;
+	margin: 40px 0;
+}
+.guitar-title {
+	background-color: #c2bebb;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 15px;
+}
+.price {
+	font-weight: bold;
+	font-size: 30px;
+	padding: 20px;
+}
+.atribute {
+	padding: 10px;
+	font-size: 15px;
+	font-weight: 400;
+}
+#footer {
+	width: 70%;
+	margin: 0 auto;
+	background-color: #c2bebb;
 }
