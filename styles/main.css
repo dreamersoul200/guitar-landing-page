@@ -164,7 +164,7 @@ li {
 #video {
 	margin: 100px auto;
 }
-.buy-guitar{
+#buy-guitar{
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
@@ -196,6 +196,25 @@ li {
 }
 #footer {
 	width: 70%;
+	height: auto;
 	margin: 0 auto;
+	padding: 10px;
 	background-color: #c2bebb;
+}
+.option-footer {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	width: 100%;
+	justify-content: flex-end;
+	margin-bottom: 10px;
+}
+.option {
+	margin: 0 10px;
+}
+.option a {
+	text-decoration: none;
+	color: black;
 }
