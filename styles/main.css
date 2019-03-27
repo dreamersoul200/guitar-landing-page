@@ -62,10 +62,11 @@ body {
 #header {
 	background-color: #cfcfcf;
 	width: 100%;
-	height: 80px;
+	height: auto;
 	display: flex;
+	flex-wrap: wrap;
 	/*box-shadow: 0px 2px 2px 1px rgba(180,180,180,1);*/
-	padding: 0 50px;
+	padding: 10px 50px;
 	position: fixed;
 	top: 0;
 	align-items: center;
@@ -100,7 +101,7 @@ li {
 	color: black;
 }
 #main {
-	padding: 80px 0;
+	padding: 120px 0;
 	width: 70%;
 	height: auto;
 	margin: 0 auto;
@@ -217,4 +218,15 @@ li {
 .option a {
 	text-decoration: none;
 	color: black;
+}
+@media (max-width: 680px) {
+	#header-logo {
+		width: 100%;
+	}
+	#nav-bar {
+		width: 100%;
+	}
+	.guitar-type {
+		width: 100%;
+	}
 }
